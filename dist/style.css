@@ -1,0 +1,17 @@
+.content{
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    padding-right: 4em;
+}
+
+.results{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}

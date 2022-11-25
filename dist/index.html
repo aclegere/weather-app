@@ -8,10 +8,29 @@
     <title>Weather App</title>
 </head>
 <body>
-    <form>
-        <input type="text" id="loc">
-        <input type="submit" id="submit">
-    </form>
+    <div class="content">
+        <h1>US WeatherApp</h1>
+        <form>
+            <input type="text" id="loc">
+            <input type="submit" id="submit">
+        </form>
+        <div class="results">
+            <div>
+                <p>Current Temperature:</p>
+                <p>Feels like:</p>
+                <p>Today's High:</p>
+                <p>Today's Low:</p>
+                <p>Wind:</p>
+            </div>
+            <div>
+                <p id="currentTemp"></p>
+                <p id="feelsLike"></p>
+                <p id="tempMax"></p>
+                <p id="tempMin"></p>
+                <p id="wind"></p>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="main.js"></script>
 </html>
