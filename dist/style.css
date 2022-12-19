@@ -1,4 +1,11 @@
-.content{
+body{
+    background-color:#05204A;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.content{ 
     margin-top: 6em;
     display: flex;
     flex-direction: column;
@@ -10,8 +17,37 @@ input{
 }
 
 .results{
+    margin-left: 6em;
+    max-height: 300px;
     display: grid;
     gap: 2em;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    font-size: larger;
+}
+
+#error{
+    color: #ff4747;
+}
+
+#submit{
+    margin-left: 1em;
+    background-color: white;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+#submit:active{
+    transform: translateY(3px)
 }
